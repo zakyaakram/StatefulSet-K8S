@@ -16,7 +16,10 @@ This project demonstrates deploying a **MySQL database using a Kubernetes Statef
 ### 1️⃣ Apply the configuration
 
 ```bash
-kubectl apply -f lab.yaml
+kubectl apply -f secets.yaml
+kubectl apply -f pvc.yaml
+kubectl apply -f StatefulSet.yaml
+kubectl apply -f HeadlessService.yaml
 2️⃣ Verify resources
 kubectl get pods
 kubectl get svc
