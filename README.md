@@ -1,17 +1,17 @@
-# 🧪 Kubernetes Lab : StatefulSet with MySQL
+#  Kubernetes Lab : StatefulSet with MySQL
 
 This project demonstrates deploying a **MySQL database using a Kubernetes StatefulSet** with:
 
-- 🔐 Secret for secure password management  
-- 💾 Persistent Volume Claim (PVC) for data persistence  
-- 🌐 Headless Service for stable networking  
-- ⚙️ Tolerations for scheduling on tainted nodes  
+-  Secret for secure password management  
+-  Persistent Volume Claim (PVC) for data persistence  
+-  Headless Service for stable networking  
+-  Tolerations for scheduling on tainted nodes  
 
 ---
 
 ---
 
-## 🚀 Deployment Steps
+##  Deployment Steps
 
 ### 1️⃣ Apply the configuration
 
